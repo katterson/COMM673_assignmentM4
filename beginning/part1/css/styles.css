@@ -34,3 +34,11 @@ a:hover {
 .list-none {
     list-style: none;
 }
+
+li:first-of-type {
+    color: blue;
+}
+
+li:last-of-type {
+    color: red;
+}
