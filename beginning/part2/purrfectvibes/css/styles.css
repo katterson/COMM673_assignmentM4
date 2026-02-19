@@ -45,3 +45,75 @@ a:link {
 .title {
     font-weight: bold;
 }
+
+td {
+    padding: 20px;
+}
+
+.teamtbl td:first-child {
+    background-color:  #f2f2f2;
+}
+
+.feature-container {
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    margin: 20px auto;
+    padding: 20px
+}
+
+.feature-container p:first-child {
+    font-weight: bold;
+    text-align: center;
+}
+
+.feature-container p:last-child {
+    text-align: right;
+}
+
+.feature-container img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.styled-list {
+    list-style-type:disc;
+    margin-left: 40px;
+}
+
+.community {
+    width: 300px;
+    padding: auto;
+}
+
+.comm-container {
+    border: solid 1px #222E50;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.comm-container span:first-child {
+    font-weight: bold;
+}
+
+.comm-container span:last-of-type {
+    font-style: italic;
+}
+
+.event-catcare {
+    border-top: 10px solid #7ca982;
+    padding-top: 20px;
+    
+}
+
+.event-quiz {
+    border-top: 10px solid #e6a563;
+    padding-top: 20px;
+}
+
+.event-contest {
+    border-top: 10px solid #b36793;
+    padding-top: 20px;
+}
